@@ -204,6 +204,45 @@ li { margin: 0.45rem 0; }
 .hero-badge strong { display: block; color: var(--blue-deep); margin-bottom: 6px; }
 .hero-badge span { color: var(--muted); font-size: 0.9rem; }
 
+.brand-panel {
+  display: grid;
+  place-items: center;
+  padding: 46px;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(217,169,78,0.22), transparent 32%),
+    linear-gradient(135deg, var(--blue-deep), var(--blue));
+}
+.brand-panel img {
+  position: absolute;
+  right: -72px;
+  bottom: -92px;
+  width: min(72%, 430px);
+  height: auto;
+  min-height: 0;
+  object-fit: contain;
+  opacity: 0.14;
+}
+.brand-panel::after {
+  display: none;
+}
+.brand-panel-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 430px;
+  color: var(--paper);
+}
+.brand-panel-inner .eyebrow {
+  color: var(--honey);
+}
+.brand-panel-inner h2 {
+  color: var(--paper);
+  margin-bottom: 18px;
+}
+.brand-panel-inner p {
+  color: rgba(255,255,255,0.82);
+  font-size: 1.05rem;
+}
+
 .pill-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
 .pill {
   display: inline-flex;
