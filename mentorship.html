@@ -19,51 +19,171 @@
   <link rel="icon" href="images/gmc-icon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Newsreader:opsz,wght@6..72,500;6..72,650&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav class="site-nav"><div class="nav-inner"><a class="brand" href="index.html"><img src="images/gmc-logo.png" alt="Genuine Mentoring Co."></a><button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button><div class="nav-links"><a href="index.html">Home</a><a href="about.html">About Dustin</a><a class="active" href="mentorship.html">Mentorship</a><a href="contact.html">Contact</a><a class="nav-cta" href="contact.html">Start a Conversation</a></div></div></nav>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <nav class="site-nav" aria-label="Primary">
+    <div class="nav-inner">
+      <a class="brand-mark" href="index.html" aria-label="Genuine Mentoring Co. home">
+        <span class="brand-main">Genuine</span>
+        <span class="brand-sub">Mentoring Co.</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="mentorship.html">Mentorship</a>
+        <a class="nav-cta" href="contact.html">Start a Conversation</a>
+      </div>
+    </div>
+  </nav>
+
   <main>
-    <header class="page-hero"><div class="container"><span class="eyebrow">The rhythm</span><h1>One-on-one mentorship, simple enough to stay real.</h1><p>Genuine Mentoring Co. is built around steady 90-minute conversations every three weeks. Enough time to go deep, enough space for life to happen between sessions.</p></div></header>
-    <section class="section">
+    <header class="page-hero">
+      <div class="container" data-reveal>
+        <p class="hero-kicker"><span></span>One-on-one mentorship</p>
+        <h1>A simple rhythm for men carrying real responsibility.</h1>
+        <p>Genuine Mentoring Co. is built around steady 90-minute conversations every three weeks. Enough time to go deep, enough space for life to happen between sessions.</p>
+        <div class="hero-actions">
+          <a class="btn btn-blue" href="contact.html">Start a Conversation</a>
+          <a class="btn btn-line" href="#rhythm">See the Rhythm</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section section-white" id="seasons">
       <div class="container">
-        <div class="section-head"><span class="eyebrow">Who it is for</span><h2>Men navigating the weight of becoming.</h2></div>
-        <div class="grid-2">
-          <div class="card card-line"><h3>Starting</h3><p>Career launch, first major decisions, early responsibility, and learning how to walk with confidence without pretending.</p></div>
-          <div class="card card-line"><h3>Responsibility</h3><p>Marriage, fatherhood, leadership, providing, and the quiet pressure of becoming someone others rely on.</p></div>
-          <div class="card card-line"><h3>Tribulation</h3><p>Hardship, loss, confusion, failure, or a season where the old way of carrying things is no longer working.</p></div>
-          <div class="card card-line"><h3>Provision</h3><p>Building, stewarding, creating stability, and becoming strong without becoming hard.</p></div>
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Who it is for</p>
+          <h2>Men navigating the weight of becoming.</h2>
+          <p>The work is shaped around real seasons, not a rigid program. These are the kinds of moments where a steady voice matters.</p>
+        </div>
+        <div class="season-grid">
+          <article class="season-card" data-reveal>
+            <span>01</span>
+            <h3>Starting</h3>
+            <p>Career launch, first major decisions, early responsibility, and learning how to walk with confidence without pretending.</p>
+          </article>
+          <article class="season-card" data-reveal>
+            <span>02</span>
+            <h3>Responsibility</h3>
+            <p>Marriage, fatherhood, leadership, providing, and the quiet pressure of becoming someone others rely on.</p>
+          </article>
+          <article class="season-card" data-reveal>
+            <span>03</span>
+            <h3>Tribulation</h3>
+            <p>Hardship, loss, confusion, failure, or a season where the old way of carrying things is no longer working.</p>
+          </article>
+          <article class="season-card" data-reveal>
+            <span>04</span>
+            <h3>Provision</h3>
+            <p>Building, stewarding, creating stability, and becoming strong without becoming hard.</p>
+          </article>
         </div>
       </div>
     </section>
-    <section class="section section-mist">
+
+    <section class="section section-mist" id="rhythm">
       <div class="container">
-        <div class="section-head"><span class="eyebrow">How it works</span><h2>The process is personal, but the rhythm is steady.</h2></div>
-        <div class="process-list">
-          <div class="process-item"><div><h3>Discovery conversation</h3><p>A short first conversation to understand your season, what you are carrying, and whether this is the right fit.</p></div></div>
-          <div class="process-item"><div><h3>Set the focus</h3><p>Name the two or three things that matter most right now. This is not a curriculum. It is a focused relationship.</p></div></div>
-          <div class="process-item"><div><h3>Meet every three weeks</h3><p>Sessions are 90 minutes. The cadence gives room for honest conversation and time for the work to settle.</p></div></div>
-          <div class="process-item"><div><h3>Review the season</h3><p>Every few sessions, step back together. Is this still the right work? Is the season shifting? Adjust with wisdom.</p></div></div>
+        <div class="section-head center" data-reveal>
+          <p class="eyebrow">The rhythm</p>
+          <h2>One offering. One steady cadence.</h2>
+          <p>The structure is intentionally uncomplicated so the work can stay focused, honest, and sustainable.</p>
+        </div>
+        <div class="rhythm-strip" data-reveal>
+          <div><strong>90 min</strong><span>Each session</span></div>
+          <div><strong>3 weeks</strong><span>Between sessions</span></div>
+          <div><strong>$75</strong><span>Per session</span></div>
+          <div><strong>1-on-1</strong><span>Personal mentorship</span></div>
+        </div>
+        <div class="process-row process-four">
+          <article data-reveal>
+            <span>First</span>
+            <h3>Discovery conversation</h3>
+            <p>A short first conversation to understand your season and whether this is the right fit.</p>
+          </article>
+          <article data-reveal>
+            <span>Then</span>
+            <h3>Name the focus</h3>
+            <p>Two or three honest themes become the center of the work, not a rigid program.</p>
+          </article>
+          <article data-reveal>
+            <span>Ongoing</span>
+            <h3>Meet every three weeks</h3>
+            <p>The cadence gives room for deep conversation, practical movement, and reflection.</p>
+          </article>
+          <article data-reveal>
+            <span>Review</span>
+            <h3>Adjust with wisdom</h3>
+            <p>As life shifts, the conversation shifts with it. The relationship serves the season in front of you.</p>
+          </article>
         </div>
       </div>
     </section>
-    <section class="section">
-      <div class="container split">
-        <div>
-          <span class="eyebrow">What it is not</span>
-          <h2>Clear boundaries keep the work honest.</h2>
-          <p>Genuine Mentoring Co. is not therapy, counseling, a mastermind group, motivational hype coaching, or a rigid program. If you need a licensed counselor, Dustin will honor that distinction. If you need a consultant, this is not packaged as that either.</p>
-          <p>This is mentorship: grounded conversation, wise questions, spiritual perspective, and practical encouragement from a trusted voice.</p>
+
+    <section class="section section-ink" id="model">
+      <div class="container model-grid">
+        <div class="model-copy" data-reveal>
+          <p class="eyebrow">The model</p>
+          <h2>The Jethro and Moses pattern.</h2>
+          <p>Exodus 18 gives a picture of mentorship that is practical, relational, and deeply human: a wiser voice sees what a man is carrying and helps him build a life that can hold it.</p>
+          <p>This is the spirit of Genuine Mentoring Co. It is not control, pressure, hype, or dependence. It is wisdom alongside responsibility.</p>
         </div>
-        <div class="quote-panel"><p>"The goal is not to make a man dependent on another voice. The goal is to help him hear clearly, walk honestly, and become steady."</p><small>Mentorship posture</small></div>
+        <div class="model-stack" aria-label="Mentorship posture">
+          <div class="model-tile" data-reveal><span>See clearly</span><strong>Name what you are carrying.</strong></div>
+          <div class="model-tile" data-reveal><span>Think wisely</span><strong>Separate pressure from calling.</strong></div>
+          <div class="model-tile" data-reveal><span>Walk steadily</span><strong>Build a rhythm you can live.</strong></div>
+        </div>
       </div>
     </section>
-    <section class="section section-blue">
-      <div class="narrow section-head center"><span class="eyebrow">Pricing</span><h2>$75 per 90-minute session.</h2><p>The rate is $50 per hour. Sessions are 90 minutes, typically every three weeks, which averages about $100 per month.</p><div class="button-row" style="justify-content:center"><a class="btn btn-light" href="contact.html">Start a Conversation</a></div></div>
+
+    <section class="section section-boundaries">
+      <div class="container boundary-grid">
+        <div data-reveal>
+          <p class="eyebrow">Clear boundaries</p>
+          <h2>Mentorship, not therapy, hype coaching, or a mastermind.</h2>
+          <p>Clear edges help the work stay honest. If a man needs licensed care, that should be honored. If he needs consulting, that is different work.</p>
+        </div>
+        <div class="boundary-list">
+          <div data-reveal><span>Not</span><p>Therapy or counseling. Licensed care should be honored when that is the right need.</p></div>
+          <div data-reveal><span>Not</span><p>A rigid curriculum, motivational hype, or grind culture language dressed up as wisdom.</p></div>
+          <div data-reveal><span>Is</span><p>A steady relationship with honest conversation, spiritual perspective, and practical encouragement.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div class="container final-grid">
+        <div data-reveal>
+          <p class="eyebrow">Pricing</p>
+          <h2>$75 per 90-minute session.</h2>
+          <p>The rate is $50 per hour. Sessions are 90 minutes, typically every three weeks, which averages about $100 per month.</p>
+          <a class="btn btn-blue final-button" href="contact.html">Start a Conversation</a>
+        </div>
+      </div>
     </section>
   </main>
-  <footer class="footer"><div class="container footer-grid"><div><img src="images/gmc-logo-light.png" alt="Genuine Mentoring Co."><p>A genuine voice along your journey.</p></div><div><h3>Pages</h3><a href="index.html">Home</a><a href="about.html">About Dustin</a><a href="contact.html">Contact</a></div><div><h3>Contact</h3><a href="contact.html">Start a conversation</a><p>90-minute sessions every three weeks.</p></div></div><div class="container footer-bottom">Genuine Mentoring Co. &copy; 2026</div></footer>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <a class="brand-mark footer-brand" href="index.html" aria-label="Genuine Mentoring Co. home">
+        <span class="brand-main">Genuine</span>
+        <span class="brand-sub">Mentoring Co.</span>
+      </a>
+      <p>A genuine voice along your journey.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
   <script src="site.js"></script>
 </body>
 </html>
